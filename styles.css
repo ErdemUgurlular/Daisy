@@ -1,0 +1,243 @@
+body{
+    margin: 0;
+    background-color: #f3f3f3;
+}
+
+.header-container{
+    width: 100vw;
+    height: 40vw;
+    background-image: url("./assets/arkaplan.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.brand-main{
+    display: flex;
+    align-items: center;
+    height: 5vw;
+    width: 100vw;
+    padding-top: 1vw;
+}
+
+.brand-main-img{
+    width: 1vw;
+    height: auto;
+    margin-left: 20vw;
+}
+
+.navbar-link-first{
+    font-family: "Montserrat", sans-serif;
+    font-size: 1vw;
+    margin-left: 2.5vw;
+    margin-right: 0.5vw;
+    color: #0084ff;
+}
+
+.navbar-link-first:hover{
+    border-top: solid #0084ff 3px;
+}
+
+.navbar-link{
+    font-family: "Montserrat", sans-serif;
+    font-size: 1vw;
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
+    color: #0084ff;
+}
+
+.navbar-link:hover{
+    border-top: solid #0084ff 3px;
+}
+
+.main-h-container{
+    display: flex;
+    margin-left: 22.5vw;
+    margin-right: 22.5vw;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+    width: 55vw;
+    height: 20vw;
+    color: #0084ff;
+    font-size: 1vw;
+    font-family: "Montserrat", sans-serif;
+    font-weight: light;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid 0.2vw #0084ff ;
+}
+
+.main-brand-logo{
+    width: 1vw;
+    height: auto;
+    padding-top: 1vw;
+}
+
+.main-h{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25vw;
+    height: auto;
+}
+
+.main-p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2vw;
+    text-align: center;
+    width: 25vw;
+    height: 10vw;
+}
+
+.gecis-container{
+    width: 100vw;
+    height: 15vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gecis-img{
+    width: 25vw;
+    height: 15vw;
+    object-fit: fill;
+}
+
+.news-container-h{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: auto;
+    color: #2495ff;
+    margin-top: 1vw;
+    font-size: 3vw;
+    font-family: "Montserrat", sans-serif;
+}
+
+.news-h{
+    width: 20vw;
+    text-align: center;
+    border-top: solid 0.2vw #2495ff;
+    font-size: 3vw;
+}
+
+.news-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-left: 22.5vw;
+    margin-right: 22.5vw;
+    width: 55vw;
+    height: 17.5vw;
+}
+
+.new-product{
+    width: 10vw;
+    height: 10vw;
+}
+
+.product-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid 0.13vw #2495ff;
+}
+
+.product-name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    width: 10vw;
+    height: 2.5vw;
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.9vw;
+}
+
+.product-price{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    width: 10vw;
+    height: 2.5vw;
+    border-top: solid 0.1vw #2495ff;
+    border-bottom: solid 0.1vw #2495ff;
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.9vw;
+}
+
+.product-btn-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10vw;
+    height: 2.5vw;
+}
+
+.product-btn{
+    border: solid 1px transparent;
+    border-top-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    background-color: #2495ff;
+    color: #f3f3f3;
+    width: 5vw;
+    height: 1.5vw;
+    font-size: 0.7vw;
+    }
+
+.product-btn:hover{
+    transform: translateY(-0.1vw);
+}
+
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 10vw;
+    margin-top: 5vw;
+}
+
+.logo-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 9vw;
+    text-decoration: none;
+}
+
+.logo{
+    width: 1.5vw;
+    height: 1.5vw;
+    text-decoration: none;
+}
+
+.logo-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25vw;
+    height: 3vw;
+    margin-left: 37.5vw;
+    margin-right: 37.5vw;
+    text-decoration: none;
+}
+
+.mail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-name{
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.7vw;
+}
